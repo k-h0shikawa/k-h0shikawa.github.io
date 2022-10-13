@@ -1,8 +1,28 @@
 #side-menu {
-    height: 100vh;
-    background-color: #F0F0F0;
+    height: 100%;
+    /* width: 100%; */
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color: #E3CCE3;
+    
 }
 
-ul#Activity li{
+body{
+    background-image: url("../image/backgrand_image.png");
+}
+
+.activity{
     margin-bottom: 10px;
+}
+
+.circle{
+    display: inline;
+}
+
+.circle0{
+    color: red;
+}
+
+.circle1{
+    color: blue;
 }
