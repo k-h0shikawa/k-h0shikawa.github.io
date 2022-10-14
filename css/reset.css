@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/*
+ * スタイル設定の初期化
+ */
+*{
+	/* ブラウザ初期設定の余白を全解除 */
+	margin:0;
+	padding:0;
+
+	/* padding等でのレイアウト崩れ対策 */
+	box-sizing:border-box;
+
+	/* font指定 */
+	font-family:'Meiryo', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+
+body{
+	/* 文字色と背景色を指定 */
+	color:#000;
+	background:#FFF;
+
+	/* 最初からスクロールバーを表示して横幅固定	*/
+	/* overflow-y:scroll; */
+}
+
+
+address {
+	/* デフォルト斜体消去 */
+	font-style:normal;
+}
+
+
+img{
+	/* デフォルト枠線消去 */
+	border:0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	/* フォント仕様を親要素から受け継ぐ */
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	line-height:inherit;
+}
+
+
+p {
+	/* 段落再指定 */
+	margin-bottom:1em;
+}
+
+
+li {
+	/* デフォルト先頭文字消去 */
+	list-style-type:none;
+}
+
+
+abbr,
+acronym {
+	/* フォントの標準化 */
+	border:0;
+	font-variant:normal;
+}
+
+
+button,
+input,
+textarea,
+select {
+	/* フォント仕様を親要素から受け継ぐ */
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	text-align:inherit;
+	color:inherit;
+}
+
+iframe{
+	/* iframe下部の空白を消す */
+	vertical-align:middle;
+}
